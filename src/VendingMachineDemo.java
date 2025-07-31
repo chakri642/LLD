@@ -3,7 +3,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 enum Coin{
     ONE(1), TWO(2), FIVE(5), TEN(10);
-    int value;
+    private int value;
     Coin(int value){
         this.value = value;
     }
@@ -14,7 +14,7 @@ enum Coin{
 
 enum Note{
     TEN(10), TWENTY(20), FIFTY(50), HUNDRED(100);
-    int value;
+    private int value;
     Note(int value){
         this.value = value;
     }
